@@ -17,7 +17,7 @@ intervals[i].length == 2 (interval length is at least 2)
 """
 
 class Solution:
-    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+    def merge(self, intervals):
 #       sotrs the list of intervals by the first element
         intervals.sort(key=lambda x: x[0])
 
